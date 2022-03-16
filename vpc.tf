@@ -7,7 +7,7 @@ variable "aws-vpc-cidr" {
 
 resource "aws_vpc" "altana-vpc" {
   cidr_block = var.aws-vpc-cidr
-  enable_dns_hostmanes = true
+  enable_dns_support = true
   tags = {
     Name = "Altana VPC"
       }
