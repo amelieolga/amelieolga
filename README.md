@@ -19,5 +19,8 @@ Before running the terraform commands:
 5) run terraform init
 6) run terraform plan
 7) run terraform apply --auto-approve
+8) run kubectl get nodes to see if your nodes are running
+9) run kubectl get po to see your application running
+
 
 
